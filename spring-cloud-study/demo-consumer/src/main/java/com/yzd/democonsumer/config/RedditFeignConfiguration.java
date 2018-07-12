@@ -20,9 +20,9 @@ public class RedditFeignConfiguration {
         return new Request.Options(FIVE_SECONDS, FIVE_SECONDS);
     }
     //（并发量）
-    @Bean
+  /*  @Bean
     public IRule ribbonRule() {
         return new BestAvailableRule();
-    }
+    }*/
 
 }

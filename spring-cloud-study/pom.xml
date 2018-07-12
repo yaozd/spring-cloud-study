@@ -10,7 +10,8 @@
 		<module>demo-eureka</module>
 		<module>demo-producer</module>
 		<module>demo-consumer</module>
-	</modules>
+        <module>demo-zipkinServer</module>
+    </modules>
 	<packaging>pom</packaging>
 	<name>spring-cloud-study</name>
 	<description>Demo project for Spring Boot</description>
